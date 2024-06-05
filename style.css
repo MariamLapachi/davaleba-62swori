@@ -16,14 +16,14 @@ body {
     left: 451px;
     border-radius: 10px;
     border: 1px solid #F4B4B4;
-    position: absolute;
-    padding: 20px;
+    margin: auto;
+    padding: 15px;
     box-sizing: border-box; /* Ensure padding is included in the width and height */
 }
 
 .container img[src="19.png"] {
     display: block;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .text1, .text2 {
