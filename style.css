@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 10px;
+    background-color: lightgrey;
+}
+
+.container {
+    background-color: white;
+    width: 378px;
+    height: 489px;
+    top: 100px;
+    left: 451px;
+    border-radius: 10px;
+    border: 1px solid #F4B4B4;
+    position: absolute;
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the width and height */
+}
+
+.container img[src="19.png"] {
+    display: block;
+    margin: 0 auto;
+}
+
+.text1, .text2 {
+    text-align: left;
+    font-size: 16px;
+    color: #616161;
+    margin: 10px 0;
+
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 35px 10px 10px; /* Adjust padding to make space for the icon */
+    margin: 5px 0;
+    border: 1px solid #F4B4B4;
+    border-radius: 10px;
+    background-image: url('21.png'); /* Set icon1 as background image */
+    background-size: 12px 12px;
+    background-position: calc(100% - 10px) 50%; /* Position the icon on the right */
+    background-repeat: no-repeat;
+}
+
+input[type="password"] {
+    background-image: url('20.png'); /* Set icon2 as background image */
+    background-size: 16px 16px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #6756CB;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
